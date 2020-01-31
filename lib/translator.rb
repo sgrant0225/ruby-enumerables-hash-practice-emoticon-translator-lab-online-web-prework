@@ -28,6 +28,6 @@ end
 
 def get_english_meaning(file_path, emoticon)
   new_result = load_library(file_path)
-  
+  if new_result[:get_meaning]
   # code goes here
 end
