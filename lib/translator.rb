@@ -16,9 +16,9 @@ new_result
 end
 
 
-def get_japanese_emoticon(file_path, emoticon)
+def get_japanese_emoticon(file, emoticon)
   # code goes here
-  emoticon = load_file(file_path)
+  emoticon = load_file(file)
   
 end
 
