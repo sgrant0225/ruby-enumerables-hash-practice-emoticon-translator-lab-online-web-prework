@@ -11,7 +11,6 @@ def load_library(file_path)
 emoticons.each do |meaning, value|
  new_result[:get_meaning][value[1]] = meaning
  new_result[:get_emoticon][value[0]] = value[1]
- #binding.pry
 end
 new_result
 end
