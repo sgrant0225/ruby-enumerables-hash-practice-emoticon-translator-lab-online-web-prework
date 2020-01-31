@@ -19,7 +19,7 @@ end
 def get_japanese_emoticon(file_path, emoticon)
   # code goes here
   new_result = load_library(file_path)
-  return new_result[:get_meaning[7]]
+  return new_result[:get_meaning
   binding.pry
 end
 
